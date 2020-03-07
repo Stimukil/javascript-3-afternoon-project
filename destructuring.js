@@ -53,14 +53,10 @@ function greeting( obj ) {
 */
 
 //Code Here
-function totalPopulation() {
-  utah: 3000
-  california: 5000
-  texas: 1000
-  arizona: 1000
+function totalPopulation(obj) {
+  let {utah, california, texas, arizona} = obj; 
+  return utah + california + texas + arizona;
 }
-
-let {utah, california, texas, arizona} = totalPopulation;
 
 
 ////////// PROBLEM 4 //////////
@@ -74,7 +70,9 @@ let {utah, california, texas, arizona} = totalPopulation;
 */
 
 //Code Here
-
+function ingredients(obj) {
+  let {carb, fat, protein} = String;
+}
 
 
 ////////// PROBLEM 5 //////////
